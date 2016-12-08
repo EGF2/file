@@ -1,0 +1,43 @@
+{
+  "standalone_ttl": 24,
+  "port": 2018,
+  "auth": "http://127.0.0.1:2016",
+  "client-data": "http://127.0.0.1:8000/",
+  "s3_bucket": "test_bucket",
+  "consumer-group": "pusher",
+  "queue": "rethinkdb",
+  "rethinkdb": {
+    "host": "localhost",
+    "port": "28015",
+    "db": "eigengraph",
+    "table": "events",
+    "offsettable": "event_offset"
+  },
+  "elastic": {
+    "hosts": [
+      "localhost:9200"
+    ]
+  },
+  "kinds": {
+    "avatar": [
+      {
+        "height": 200,
+        "width": 200
+      },
+      {
+        "height": 300,
+        "width": 400
+      }
+    ],
+    "image": [
+      {
+        "height": 200,
+        "width": 200
+      },
+      {
+        "height": 300,
+        "width": 400
+      }
+    ]
+  }
+}

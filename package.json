@@ -1,0 +1,26 @@
+{
+  "name": "file",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.2.32",
+    "bunyan": "^1.5.1",
+    "commons": "git+https://github.com/EGF2/commons.git",
+    "gm": "^1.21.1",
+    "moment": "^2.10.6",
+    "node-uuid": "^1.4.7",
+    "request": "^2.67.0",
+    "restify": "^4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.0",
+    "eslint-config-xo": "^0.15.3",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node index.js -c config.json",
+    "lint": "eslint ."
+  },
+  "license": "MIT"
+}
