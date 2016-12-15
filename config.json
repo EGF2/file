@@ -4,7 +4,7 @@
   "auth": "http://127.0.0.1:2016",
   "client-data": "http://127.0.0.1:8000/",
   "s3_bucket": "test_bucket",
-  "consumer-group": "pusher",
+  "consumer-group": "file",
   "queue": "rethinkdb",
   "rethinkdb": {
     "host": "localhost",
@@ -12,6 +12,13 @@
     "db": "eigengraph",
     "table": "events",
     "offsettable": "event_offset"
+  },
+  "kafka": {
+    "hosts": [
+      "localhost:9092"
+    ],
+    "client-id": "file",
+    "topic": "events"
   },
   "elastic": {
     "hosts": [
