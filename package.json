@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "node index.js -c config.json",
+    "test": "mocha --timeout 10000 test/*.test.js -c config.json",
     "lint": "eslint ."
   },
   "license": "MIT"
