@@ -6,7 +6,6 @@
     "aws-sdk": "^2.2.32",
     "bunyan": "^1.5.1",
     "commons": "git+https://github.com/EGF2/commons.git",
-    "dotenv": "^5.0.0",
     "gm": "^1.21.1",
     "moment": "^2.10.6",
     "node-uuid": "^1.4.7",
