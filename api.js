@@ -75,6 +75,9 @@ class App {
         });
         server.use(restify.queryParser());
 
+        // healthcheck
+        server.get("/healthcheck", (req, res) => res.send(200));
+
         server.use(authHandler);
 
         // create image
